@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex
+}
+
+#part1{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(255, 242, 94, 95);
+}
+
+#part2{
+    height: 100%;
+    width: 72%;
+    background-image: url(https://img.freepik.com/free-photo/young-woman-red-polka-dot-outfit-with-smile-eyes-closed-posing-yellow-wall_197531-14265.jpg?t=st=1728993394~exp=1728996994~hmac=6637a30c28324f809cc1c0dcfdcafd63d6be16739677b63f6969f969a104109a&w=996);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(209, 209, 101, 0.222);
+}
+
+#part3{
+    height: 100%;
+    width: 8%;
+    background-color: rgb(255, 242, 95);
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    text-transform: uppercase;
+    transform: translate(0,-50);
+}
+
+#text>h1{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 70px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#photo{
+    height: 60%;
+    width: 18%;
+    background-color: aliceblue;
+    border-radius: 1%;
+    position: absolute;
+    right: 4%;
+    top: 20%;
+    background-image: url(https://img.freepik.com/free-photo/happy-woman-yellow-dress_23-2148510355.jpg?semt=ais_hybrid);
+    background-position: center;
+    background-size:cover;
+}
+
+#vertical-text{
+    position: absolute;
+    right: -3%;
+    transform: rotate(90deg);
+    top: 42%;
+}
+
+
+#vertical-text h1{
+    font-size: 100px;
+    color: transparent;
+    letter-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 1.2px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.782);
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    color: rgb(105, 77, 37);
+    left: 7%;
+    top: 10%;
+    width: 370px;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
